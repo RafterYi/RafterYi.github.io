@@ -147,6 +147,15 @@ h2{
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
+p{
+    color: #7D7D7D;
+    font-size: 12px;
+    font-family: "Noto Sans", sans-serif ;
+    line-height: 150%;
+    margin: 0%;
+}
+
 #contact-section{
     height: 140px;
     padding: 16px;
