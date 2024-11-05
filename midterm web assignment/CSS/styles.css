@@ -35,122 +35,79 @@ a{
     color: #4d2e06;
 }
 header{
-    padding: 20px 20px 30px 20px;
-    position: fixed;
+    padding: 0px 20px 40px 20px;
     top: 0;
     left: 0;
     width: 100%; /* 滿寬 */
     z-index: 1000;
     box-sizing: border-box; /* 確保內邊距不影響寬度 */
-    padding: 20px;
     text-align: center;
+
+    border-bottom: 1px solid #4d2e061a;
 }
-.chapterOne{
-    position: relative;
-    width: 100%; /* 設定圖片容器寬度 */
-    max-width: 800px; /* 控制圖片最大寬度 */
-    margin: auto;
-}
-.chapterOnePurpose{
-    position: absolute; /* 絕對定位到圖片之上 */
-    top: 0; /* 將文字容器定位在左上角 */
-    left: 0; /* 將文字容器定位在左上角 */
-    padding: 20px; /* 增加間距 */
-    color: #4d2e06; /* 字體顏色 */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .content {
+    display: flex;
+    max-width: 800px;
+    margin-bottom: 40px;
+    align-items: center; /* Center aligns items vertically */
+    justify-content: center; /* Center aligns items horizontally, if desired */
+  }
+  
+  /* Add spacing between columns */
+  .left-column {
+    flex: 1;
+    padding-right: 30px; /* Increase padding to create more distance */
     text-align: left;
-    width: 50%;
-}
-.chapterOnePurpose p {
-    font-size: 1.01em;
-    margin: 10px 0;
-}
-.chapterOneStoryImg{
-    width: 100%;
-}
-
-
-.chapterTwo{
-    position: relative;
-    width: 100%; /* 設定圖片容器寬度 */
-    max-width: 800px; /* 控制圖片最大寬度 */
-    margin: auto;
-}
-.chapterTwoPurpose{
-    position: absolute; /* 絕對定位到圖片之上 */
-    top: 0; /* 將文字容器定位在左上角 */
-    left: 30%; /* 將文字容器定位在左上角 */
-    padding: 20px; /* 增加間距 */
-    color: #4d2e06; /* 字體顏色 */
-    text-align: left;
-    width: 42%;
-    background-color: rgba(234, 227, 221, 0.64); /* 半透明背景 */
-    border-radius: 10px;
-    max-width: 300px; /* 控制背景方格的寬度 */
-    backdrop-filter: blur(5px) saturate(200%); /* 背景模糊和飽和度 */
-    -webkit-backdrop-filter: blur(10px) saturate(180%); /* Safari 支援 */
-}
-.chapterTwoPurpose p {
-    font-size: 1.01em;
-    margin: 10px 0;
-}
-.chapterTwoStoryImg{
-    width: 100%;
-}
-
-
-.chapterThree{
-    position: relative;
-    width: 100%; /* 設定圖片容器寬度 */
-    max-width: 800px; /* 控制圖片最大寬度 */
-    margin: auto;
-}
-.chapterThreePurpose{
-    position: absolute; /* 絕對定位到圖片之上 */
-    top: 0; /* 將文字容器定位在左上角 */
-    left: 0; /* 將文字容器定位在左上角 */
-    padding: 20px; /* 增加間距 */
-    color: #4d2e06; /* 字體顏色 */
-    text-align: left;
-    width: 50%;
-    
-    /*background-color: rgba(234, 227, 221, 0.64); /* 半透明背景 */
-    /* border-radius: 10px;  */
-    /*max-width: 200px; /* 控制背景方格的寬度 */
-    /*backdrop-filter: blur(5px) saturate(200%); /* 背景模糊和飽和度 */
-    /*-webkit-backdrop-filter: blur(10px) saturate(180%); /* Safari 支援 */
-    
-}
-.chapterThreePurpose p {
-    font-size: 1.01em;
-    margin: 10px 0;
-}
-.chapterThreeStoryImg{
-    width: 100%;
-}
-
-
-.chapterFour{
-    position: relative;
-    width: 100%; /* 設定圖片容器寬度 */
-    max-width: 800px; /* 控制圖片最大寬度 */
-    margin: auto;
-}
-.chapterFourPurpose{
-    position: absolute; /* 絕對定位到圖片之上 */
-    top: 0; /* 將文字容器定位在左上角 */
-    left: 0; /* 將文字容器定位在左上角 */
-    padding: 20px; /* 增加間距 */
-    color: #4d2e06; /* 字體顏色 */
-    text-align: left;
-    width: 50%;
-}
-.chapterFourPurpose p {
-    font-size: 1.01em;
-    margin: 10px 0;
-}
-.chapterFourStoryImg{
-    width: 100%;
-}
-.ourWorld{
     color: #4d2e06;
-}
+  }
+  
+  .right-column {
+    flex: 1;
+    padding-left: 30px; /* Increase padding to create more distance */
+    text-align: center;
+    color: #4d2e06;
+  }
+  
+  .story1image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .car-caption {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0;
+    color: #4d2e06;
+  }
+  
+  h2 span {
+    font-weight: bold;
+    font-size: 28px;
+    display: block;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #4d2e06;
+  }
+  
+  /* New styles for image on right and text on left */
+  .image-right {
+    flex-direction: row;
+  }
