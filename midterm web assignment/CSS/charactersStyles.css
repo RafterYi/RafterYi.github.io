@@ -2,17 +2,16 @@
     width: 160px;
 }
 body{
-    background-color: #f0eeea;
+    background-color: #ffffff;
 }
 .title {
     justify-content: space-between;
-    margin-top: 36px;
     height: 92px;
     
 }
 .description {
     font-size: 14px;
-    color: #634c3fbb; /* Adjust color to match your design */
+    color: #e9e9e9; /* Adjust color to match your design */
     margin-left: 10px; /* Space between title and description */
     align-self: flex-end; /* Align description to the bottom */
 }
@@ -35,17 +34,17 @@ a{
 }
 .note {
     margin-right: 20px;
-    color: #4d2e06;
+    color: #ffffff;
 }
 header{
-    padding: 0px 20px 40px 20px;
+    padding: 20px 20px 20px 20px;
     top: 0;
     left: 0;
     width: 100%; /* 滿寬 */
     z-index: 1000;
     box-sizing: border-box; /* 確保內邊距不影響寬度 */
     text-align: center;
-
+    background-color: #4d2e06;
     border-bottom: 1px solid #4d2e061a;
 }
 .allFood{
@@ -152,6 +151,7 @@ footer {
     align-items: center;
     justify-content: center;
     font-size: 14px;
-    color: #634c3fbb;
+    color: #ffffff;
     border-top: 1px solid #4d2e061a;
+    background-color: #4d2e06;
 }
