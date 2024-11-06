@@ -2,7 +2,7 @@
     width: 160px;
 }
 body{
-    background-image: url('images/BAckgroundPA.png');
+    background-color: #f0eeea;
 }
 .title {
     justify-content: space-between;
@@ -10,9 +10,15 @@ body{
     height: 92px;
     
 }
+.description {
+    font-size: 14px;
+    color: #634c3fbb; /* Adjust color to match your design */
+    margin-left: 10px; /* Space between title and description */
+    align-self: flex-end; /* Align description to the bottom */
+}
 .tabBar {
     height: 100%;
-    width: 90%;
+    width: 80%;
     text-align: right;
     margin-right: 20px;
     padding: 4px;
@@ -137,4 +143,15 @@ header{
 .dish-card p {
     font-size: 0.9rem;
     color: #4d2e06;
+}
+
+footer {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #634c3fbb;
+    border-top: 1px solid #4d2e061a;
 }
